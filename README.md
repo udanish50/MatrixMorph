@@ -1,5 +1,7 @@
 # MatrixMorph
 
+> **V2.1 UI consistency release:** the standalone workbench and umairdanish.com integration now use the same visual system as the existing Software catalog and algorithm-software pages.
+
 Apply matrix transformations to reproducible public datasets or your own CSV, TSV, JSON, TXT, or Matrix Market data.
 
 ## What V2 adds
