@@ -1,19 +1,15 @@
 # MatrixMorph
 
-**Visual Matrix Transformation Studio**
+Apply matrix transformations to reproducible public datasets or your own CSV, TSV, JSON, TXT, or Matrix Market data.
 
-Build and inspect transpose, normalization, slicing, Hadamard and Kronecker transformations with generated results.
+## What V2 adds
 
-## Features
-- Browser-local matrix analysis: source matrices never leave the page.
-- Six built-in realistic examples so the application is immediately demonstrable.
-- CSV/text upload and direct paste.
-- Responsive single-column mobile layout and two-column laptop/desktop workspace.
-- Deterministic JavaScript matrix engine with automated tests.
+- 34 public-data benchmark fixtures with source links
+- 34/34 public dataset verification against NumPy reference results
+- user-owned CSV, TSV, TXT, JSON, and Matrix Market upload for both A and B
+- browser-local processing (no code/data server upload)
+- responsive UI for phones, tablets, laptops, and desktops
 
-## Test
-```bash
-npm test
-```
+Run tests: `npm test`
 
-Part of the Matrix Lab collection on [umairdanish.com](https://umairdanish.com/).
+See `PUBLIC-DATA-VERIFICATION.md` for the full dataset table.
